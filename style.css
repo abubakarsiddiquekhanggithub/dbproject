@@ -1,0 +1,287 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #c2efd4;
+  padding-top: 20px;
+}
+
+/* Nav start */
+.navbar {
+  color: black;
+  display: flex;
+  /* justify-content: center; */
+  gap: 30px;
+  /* font-style: normal; */
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  align-items: center;
+  margin-top: 22px;
+  font-size: large;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.navbar a:hover {
+  color: #224f34;
+  text-decoration: underline 2px green;
+  transition: all 2s;
+}
+
+.navbar .rivo {
+  color: #224f34;
+  margin-right: 25%;
+  margin-left: 80px;
+  font-family: Elephant;
+  font-size: 40px;
+  font-weight: 400;
+}
+.navbar .login button {
+  background-color: transparent;
+  margin-left: 200px;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  /* margin-right: 20px; */
+}
+
+.login button:hover {
+  color: white;
+  background-color: #267d4971;
+}
+/* Nav end */
+
+/* home section start */
+.home-content {
+  display: flex;
+  gap: 150px;
+}
+
+.home-content .text {
+  width: 749px;
+  /* height: auto; */
+  /* border: #224F34 2px solid; */
+  padding-left: 55px;
+  margin-top: 40px;
+}
+
+.h1-head {
+  color: #224f34;
+  font-family: Rufina;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.p-head {
+  color: #267d49;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 200%; /*52.8px */
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+
+.home-content .img {
+  margin-top: 20px;
+  margin-right: 50px;
+  /* width: 114px; */
+  /* height: 110px; */
+}
+.photo {
+  width: 400px;
+}
+
+.btn {
+  padding: 10px 15px;
+  background-color: #224f34;
+  color: white;
+  margin-left: 20px;
+  /* margin-top: 10px; */
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #267d49;
+}
+/* home section end */
+
+/* Product section start */
+
+.products {
+  width: 100%;
+  height: 100vh;
+  margin-top: 100px;
+  /* margin-top: 100px; */
+}
+
+.card {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-item {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-img {
+  width: 350px;
+  height: 400px;
+  margin-bottom: 10px;
+}
+
+.products-head {
+  margin-left: 590px;
+  margin-top: 30px;
+  margin-bottom: 120px;
+  font-size: 30px;
+}
+/* Product section end */
+
+/* Exclusive Offers start */
+
+.exclusive-offers {
+  margin-top: 100px;
+  width: 100%;
+  height: 50vh;
+}
+
+.first {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 200px;
+}
+
+.first-left img {
+  margin-left: 30%;
+  width: 400px;
+  height: 473px;
+}
+.first-right h1 {
+  font-size: 46px;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  color: rgba(34, 79, 52, 1);
+  width: 346.89px;
+  height: 58.75px;
+  margin-top: 50px;
+}
+.first-right p {
+  font-size: 22px;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: rgba(34, 79, 52, 1);
+  width: 611.73px;
+  height: 106.9px;
+}
+.buy-btn {
+  margin-top: 20px;
+  padding: 10px 50px;
+  border: none;
+  color: white;
+  background-color: #224f34;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background-color: #267d49;
+}
+
+.second {
+  display: flex;
+  justify-content: space-around;
+  background-color: #224f3444;
+  padding-top: 40px;
+  /* padding-bottom: 40px; */
+  width: 100%;
+  height: 65vh;
+}
+
+.card-item {
+  width: 300px;
+  height: 350px;
+  /* display: flex; */
+  align-items: center;
+}
+.card-item p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: 600;
+  color: rgba(55, 55, 55, 1);
+  width: 243px;
+  height: 18.28px;
+}
+
+/* Exclusive offers end */
+
+/* footer start */
+.footer {
+  margin-top: 600px;
+  background-color: #224f34;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left svg {
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.footer-left svg:hover {
+  transform: scale(1.4);
+}
+
+input {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px #a3f3be solid;
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.footer-btn {
+  padding: 10px 10px;
+  background-color: transparent;
+  border: 2px #a3f3be solid;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #267d49;
+}
+
+/* scrolling animation */
+.reveal {
+  position: relative;
+  transform: translatey(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active {
+  transform: translatey(0px);
+  opacity: 1;
+}
