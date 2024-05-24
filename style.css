@@ -59,6 +59,21 @@ body {
   background-color: #267d4971;
 }
 /* Nav end */
+.navbar .cart button {
+  background-color: transparent;
+  margin-left: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  /* margin-right: 20px; */
+}
+
+.cart button:hover {
+  color: white;
+  background-color: #267d4971;
+}
 
 /* home section start */
 .home-content {
