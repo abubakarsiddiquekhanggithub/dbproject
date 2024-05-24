@@ -30,7 +30,7 @@ CREATE TABLE placeorder (
 
 
 
-
+--------PROCEDURE STARTTTTTTT------------
 
 DELIMITER //
 CREATE PROCEDURE add_to_cart(
